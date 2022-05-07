@@ -18,6 +18,6 @@ public interface MyUserService<T extends AppUser,R extends UserRole> {
 
     void removeUser(T user);
 
-    public R getRoleByName(String name);
+    R getRoleByName(String name);
 
 }
